@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="xlarge-6 large-6 medium-12 small-12 columns">
-                    <img src="<?php echo $full_path; ?>500.png" title="Sad Connectors" />
+                    <img src="<?php echo $path_images; ?>500.png" title="Sad Connectors" />
                 </div>
             </div>
         </div>
