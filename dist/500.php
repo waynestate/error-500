@@ -28,7 +28,7 @@
                 <div class="xlarge-offset-1 xlarge-5 large-6 medium-12 small-12 columns">
                     <h1>500</h1>
                     <h2>Oops! Looks like<br /> something went wrong!</h2>
-                    <p>We track these errors automatically, but if the<br /> problem persists feel free to <a href="mailto:web@wayne.edu">contact us</a>.<br /> In the meantime, try <a href="<?php echo $_SERVER['PHP_SELF']; ?>">refreshing</a>.</p>
+                    <p>We track these errors automatically, but if the<br /> problem persists feel free to <a href="mailto:web@wayne.edu">contact us</a>.<br /> In the meantime, try <a href="//{{ $request->server("HTTP_HOST") }}{{ $request->server("REQUEST_URI") }}">refreshing</a>.</p>
                 </div>
 
                 <div class="xlarge-6 large-6 medium-12 small-12 columns">
